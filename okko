@@ -1,0 +1,10 @@
+def calculate_inflation_rate(current_price, previous_price):
+    inflation_rate = ((current_price - previous_price) / previous_price) * 100
+    return inflation_rate
+
+# Example usage
+current_price = 3.50  # Current price of gasoline
+previous_price = 3.00  # Previous price of gasoline
+
+inflation_rate = calculate_inflation_rate(current_price, previous_price)
+print(f"The inflation rate for gasoline is: {inflation_rate:.2f}%")
